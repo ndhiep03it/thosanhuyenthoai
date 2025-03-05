@@ -1,0 +1,85 @@
+public string AddThaoItem(Item item, int quantity, string status,int star,int level, int damage, int hp, int mp, int chimang, int lifesteal, int manasteal,float ne,int solanepsao,int doben)
+    {
+        if (item == null)
+        {
+            return "Item không hợp lệ!";
+        }
+
+        items.Add(new ItemSlot()); // Thêm slot trống mới
+        // Tìm slot có thể cộng dồn
+        foreach (ItemSlot slot in items)
+        {
+            if (slot.item == item && slot.quantity < item.maxStack)
+            {
+
+                int spaceLeft = item.maxStack - slot.quantity;
+                int addQuantity = Mathf.Min(spaceLeft, quantity);
+                slot.quantity += addQuantity;
+                quantity -= addQuantity;
+                slot.status = status;
+                slot.level = level;
+                slot.dame = damage;
+                slot.hp = hp;
+                slot.mp = mp;
+                slot.chimang = chimang;
+                slot.hutki = lifesteal;
+                slot.hutmau = manasteal;
+                slot.ne = ne;
+                slot.solanepsao = solanepsao;
+                slot.doben = doben;
+
+                if (quantity <= 0)
+                {
+                    SaveInventory(); // Lưu sau khi thêm item
+                    LoadInventory();
+                    return "Thêm thành công!";
+                }
+            }
+        }
+
+        // Tìm slot trống để thêm item mới
+        foreach (ItemSlot slot in items)
+        {
+            if (slot.item == null)
+            {
+                items.Add(new ItemSlot()); // Thêm slot trống mới
+                slot.item = item;
+                slot.quantity = Mathf.Min(quantity, item.maxStack);              
+                slot.status = status;
+                slot.stars = star;
+                slot.status = status;
+                slot.level = level;
+                slot.dame = damage;
+                slot.hp = hp;
+                slot.mp = mp;
+                slot.chimang = chimang;
+                slot.hutki = lifesteal;
+                slot.hutmau = manasteal;
+                slot.ne = ne;
+                slot.solanepsao = solanepsao;
+                slot.doben = doben;
+                quantity -= slot.quantity;
+
+                if (quantity <= 0)
+                {
+                    SaveInventory(); // Lưu sau khi thêm item
+                    LoadInventory();
+                    return "Thêm thành công!";
+                }
+            }
+        }
+        // Nếu tất cả slot đều đầy, kiểm tra nếu cần mở rộng inventory
+        // Nếu không có slot trống, mở rộng inventory và thêm item vào
+        if (quantity > 0)
+        {
+            //ExpandInventory(1);  // Mở rộng inventory
+
+            return "Inventory đã đầy, không thể thêm item!";
+        }
+        inventoryUI.UpdateItem();
+
+
+        return "Thêm thành công!";
+
+
+    }

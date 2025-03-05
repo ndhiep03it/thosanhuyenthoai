@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eba50a81a5b34791db0b665f76f57, type: 3}
+  m_Name: NHANSAM
+  m_EditorClassIdentifier: 
+  itemName: "Nh\xE2n s\xE2m "
+  level: 0
+  icon: {fileID: 21300000, guid: 89d963e37a7097743bca5bedf386ed0b, type: 3}
+  maxStack: 999
+  itemType: 0
+  slotName: 0
+  giaMua: 3
+  giaBan: 0
+  itemMoney: 1
+  IconMoney: {fileID: 21300000, guid: 09d60c3328b71174388f959b4f4345c4, type: 3}
+  description: "S\u1EED d\u1EE5ng t\u0103ng 1 c\u1EA5p"
+  itemParama: 07000000
+  itemReward: []
+  parameterValue: 01000000
+  itemID: 0
+  isEquippable: 0
+  star: 

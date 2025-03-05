@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eba50a81a5b34791db0b665f76f57, type: 3}
+  m_Name: BUATACHSAO
+  m_EditorClassIdentifier: 
+  itemName: "B\xF9a t\xE1ch sao"
+  level: 0
+  icon: {fileID: 21300000, guid: f0a0a10b598119d4d85a635390db1922, type: 3}
+  maxStack: 999
+  itemType: 2
+  slotName: 11
+  giaMua: 1
+  giaBan: 0
+  itemMoney: 1
+  IconMoney: {fileID: 21300000, guid: 09d60c3328b71174388f959b4f4345c4, type: 3}
+  description: "D\xF9ng \u0111\u1EC3 t\xE1ch sao  trang b\u1ECB t\u1EA1i b\xE0 h\u1EA1t
+    m\xEDt\n<color=yellow>B\xF9a t\xE1ch</color>\nL\u01B0u \xFD khi t\xE1ch t\u1EA5t
+    c\u1EA3 s\u1EBD v\u1EC1 ban \u0111\u1EA7u."
+  itemParama: 00000000
+  itemReward: []
+  parameterValue: 
+  itemID: 0
+  isEquippable: 0
+  star: 

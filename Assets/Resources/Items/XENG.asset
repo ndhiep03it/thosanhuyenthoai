@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eba50a81a5b34791db0b665f76f57, type: 3}
+  m_Name: XENG
+  m_EditorClassIdentifier: 
+  itemName: "X\u1EBBng cu\u1ED1c \u0111\u1EA5t"
+  level: 0
+  icon: {fileID: 21300000, guid: 2fbad11cfebc0104dbac8f2fd5e8cd41, type: 3}
+  maxStack: 999
+  itemType: 0
+  slotName: 0
+  giaMua: 5
+  giaBan: 0
+  itemMoney: 1
+  IconMoney: {fileID: 21300000, guid: 09d60c3328b71174388f959b4f4345c4, type: 3}
+  description: "X\u1EBBng d\xF9ng \u0111\u1EC3 \u0111\xE0o \u0111\u1EA5t v\xE0 nh\u1EADn
+    \u0111\u01B0\u1EE3c th\u1EE9 \u0111\xE0o \u0111\u01B0\u1EE3c t\u1EA1i \u0111\xF3."
+  itemParama: 11000000
+  itemReward: []
+  parameterValue: 
+  itemID: 0
+  isEquippable: 0
+  star: 
+  quantity: 0
