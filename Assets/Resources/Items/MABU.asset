@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eba50a81a5b34791db0b665f76f57, type: 3}
+  m_Name: MABU
+  m_EditorClassIdentifier: 
+  itemName: "Ma B\u01B0 M\u1EADp"
+  level: 2
+  icon: {fileID: 21300000, guid: f13f4e3d4e7e68e438eb46fbe5fae9a2, type: 3}
+  maxStack: 1
+  itemType: 1
+  slotName: 9
+  giaMua: 10000000
+  giaBan: 3000
+  itemMoney: 0
+  IconMoney: {fileID: 21300000, guid: 4c781d9d4f5309147951939ae19bc984, type: 3}
+  description: "Ma B\u01B0 M\u1EADp - Si\xEAu b\xE9o \xFA"
+  itemParama: 0100000002000000
+  itemReward: []
+  parameterValue: 3200000032000000
+  itemID: 0
+  isEquippable: 1
+  star: 
+  quantity: 0

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/DemoText.unity
+    guid: 621b80bda8d45ae4c8252f1b2af1e8f6
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: c19ef20cbf63d624db5aef30e6b0fbd4
+  - enabled: 1
+    path: Assets/Scenes/Map1.unity
+    guid: b0b6fa2eec0e6cb4faf5e176a127d96f
+  - enabled: 1
+    path: Assets/Scenes/Map2.unity
+    guid: 449eeb9797300b0478445e98286eb51d
+  - enabled: 1
+    path: Assets/Scenes/Map3.unity
+    guid: f1d648e5990e6de499c4c314ff697131
+  - enabled: 1
+    path: Assets/Scenes/Map499.unity
+    guid: 011956a43a834a440b609add7bda1b7c
+  - enabled: 1
+    path: Assets/Scenes/Mapbando.unity
+    guid: f175cf12acb8c92468e993b186c50efd
+  - enabled: 1
+    path: Assets/Scenes/Mapvachnuihaibang.unity
+    guid: 57e544a3d2fb9bb4e8a502ecff9ce1e8
+  - enabled: 1
+    path: Assets/Scenes/Mapnongtrai.unity
+    guid: 4269a318552bd8946957efb1626287d2
+  - enabled: 1
+    path: Assets/Scenes/Mapbinhthuy.unity
+    guid: 87ee089314f82734e9c9040ea26bffaf
+  - enabled: 1
+    path: Assets/Scenes/Map4.unity
+    guid: f44bdc8203009ab4e844c77ea336115d
+  m_configObjects: {}

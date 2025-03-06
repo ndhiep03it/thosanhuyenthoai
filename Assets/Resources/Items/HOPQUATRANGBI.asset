@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eba50a81a5b34791db0b665f76f57, type: 3}
+  m_Name: HOPQUATRANGBI
+  m_EditorClassIdentifier: 
+  itemName: "H\u1ED9p qu\xE0 trang b\u1ECB"
+  level: 0
+  icon: {fileID: 21300000, guid: 6e2e9fc75acda814c95a5cc71975cb8b, type: 3}
+  maxStack: 999
+  itemType: 0
+  slotName: 0
+  giaMua: 1
+  giaBan: 2
+  itemMoney: 1
+  IconMoney: {fileID: 21300000, guid: 09d60c3328b71174388f959b4f4345c4, type: 3}
+  description: "M\u1EDF ra c\xE1c v\u1EADt ph\u1EA9m trang b\u1ECB ng\u1EABu nhi\xEAn
+    b\u1EA5t k\xEC"
+  itemParama: 0d000000
+  itemReward:
+  - {fileID: 11400000, guid: de61cfcb7304cd24791811a7f1ebe69e, type: 2}
+  - {fileID: 11400000, guid: aa14eed8c345f4742ba60fc3038f5c59, type: 2}
+  - {fileID: 11400000, guid: 6a1886ec72d21c04397f0f31a4648f9f, type: 2}
+  - {fileID: 11400000, guid: 2f60ce233ae700840bf8ba50faaadc15, type: 2}
+  - {fileID: 11400000, guid: 2823ff04d30b002468f4759317635191, type: 2}
+  - {fileID: 11400000, guid: 24e553dc55ca29b4792eb9ea2e0e2f35, type: 2}
+  - {fileID: 11400000, guid: 24e553dc55ca29b4792eb9ea2e0e2f35, type: 2}
+  - {fileID: 11400000, guid: 24e553dc55ca29b4792eb9ea2e0e2f35, type: 2}
+  - {fileID: 11400000, guid: 24e553dc55ca29b4792eb9ea2e0e2f35, type: 2}
+  - {fileID: 11400000, guid: beb8f0f7288a69e42b44faf791224527, type: 2}
+  - {fileID: 11400000, guid: beb8f0f7288a69e42b44faf791224527, type: 2}
+  - {fileID: 11400000, guid: 24e553dc55ca29b4792eb9ea2e0e2f35, type: 2}
+  - {fileID: 11400000, guid: a6cf8ca3c4543f84d8bd5aefa921be48, type: 2}
+  - {fileID: 11400000, guid: a6cf8ca3c4543f84d8bd5aefa921be48, type: 2}
+  - {fileID: 11400000, guid: a6cf8ca3c4543f84d8bd5aefa921be48, type: 2}
+  - {fileID: 11400000, guid: 5dc77c4571d3af84184705f8af117661, type: 2}
+  - {fileID: 11400000, guid: 5dc77c4571d3af84184705f8af117661, type: 2}
+  - {fileID: 11400000, guid: 5dc77c4571d3af84184705f8af117661, type: 2}
+  - {fileID: 11400000, guid: 5dc77c4571d3af84184705f8af117661, type: 2}
+  - {fileID: 11400000, guid: 5dc77c4571d3af84184705f8af117661, type: 2}
+  - {fileID: 11400000, guid: 53e015423f8180440829f0b42075a35c, type: 2}
+  - {fileID: 11400000, guid: bb953384f8b71be4fb22ad11d01f3323, type: 2}
+  - {fileID: 11400000, guid: 676cd9cfbf0759d4692ec716355ea3d7, type: 2}
+  - {fileID: 11400000, guid: 45b575f38b9197b468a7bd0ae63ea90f, type: 2}
+  - {fileID: 11400000, guid: 6bbbe272de791b54c8cb8d3fe317f307, type: 2}
+  - {fileID: 11400000, guid: e81522641bf5988418bfa4dc674e0f60, type: 2}
+  - {fileID: 11400000, guid: e81522641bf5988418bfa4dc674e0f60, type: 2}
+  - {fileID: 11400000, guid: e81522641bf5988418bfa4dc674e0f60, type: 2}
+  - {fileID: 11400000, guid: e81522641bf5988418bfa4dc674e0f60, type: 2}
+  - {fileID: 11400000, guid: 5dd162e1608e57a4f9cc8605f218006f, type: 2}
+  - {fileID: 11400000, guid: 5dd162e1608e57a4f9cc8605f218006f, type: 2}
+  - {fileID: 11400000, guid: 5dd162e1608e57a4f9cc8605f218006f, type: 2}
+  parameterValue: 1d000000
+  itemID: 0
+  isEquippable: 0
+  star: 

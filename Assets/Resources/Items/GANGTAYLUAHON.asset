@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eba50a81a5b34791db0b665f76f57, type: 3}
+  m_Name: GANGTAYLUAHON
+  m_EditorClassIdentifier: 
+  itemName: "G\u0103ng Tay L\u1EEDa H\u1ED3n"
+  level: 24
+  icon: {fileID: 21300000, guid: fc19f64d2643fbc428c4074f8fb9308f, type: 3}
+  maxStack: 1
+  itemType: 1
+  slotName: 3
+  giaMua: 7000
+  giaBan: 5000
+  itemMoney: 0
+  IconMoney: {fileID: 21300000, guid: 4c781d9d4f5309147951939ae19bc984, type: 3}
+  description: "G\u0103ng Tay L\u1EEDa H\u1ED3n - khi m\u1EB7c t\u0103ng ch\u1EC9
+    s\u1ED1 T\u1EA5n c\xF4ng"
+  itemParama: 05000000
+  itemReward: []
+  parameterValue: 8c000000
+  itemID: 0
+  isEquippable: 0
+  star: 
+  quantity: 0

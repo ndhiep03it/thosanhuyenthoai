@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501eba50a81a5b34791db0b665f76f57, type: 3}
+  m_Name: HOPPET
+  m_EditorClassIdentifier: 
+  itemName: "H\u1ED9p qu\xE0 Pet"
+  level: 0
+  icon: {fileID: 21300000, guid: 4ae3495083b9e014eac26f8d0407a613, type: 3}
+  maxStack: 999
+  itemType: 0
+  slotName: 0
+  giaMua: 100
+  giaBan: 2
+  itemMoney: 1
+  IconMoney: {fileID: 21300000, guid: 09d60c3328b71174388f959b4f4345c4, type: 3}
+  description: "M\u1EDF ra nh\u1EADn b\xEAn trong Pet ng\u1EABu nhi\xEAn ch\u1EC9
+    s\xF4\n---- Th\u1EA5p - > Cao ----"
+  itemParama: 100000000100000002000000030000000400000005000000060000000f000000
+  itemReward:
+  - {fileID: 11400000, guid: 6f18e91207fe3eb439b7a7093bd87b1e, type: 2}
+  - {fileID: 11400000, guid: d16c92659a29f7c44832b9df80b916c9, type: 2}
+  - {fileID: 11400000, guid: 3d4ceff092a50c54180bd645cd99a713, type: 2}
+  - {fileID: 11400000, guid: 50fd70f58c1584d44ad859e740ceb86f, type: 2}
+  - {fileID: 11400000, guid: 38cd66fadfd77414a8b33a56ed6a46eb, type: 2}
+  - {fileID: 11400000, guid: 033b39ddf828cca49828abf4e421c0ab, type: 2}
+  parameterValue: f4010000f4010000f40100000a0000000a000000960000001900000064000000
+  itemID: 0
+  isEquippable: 0
+  star: 
